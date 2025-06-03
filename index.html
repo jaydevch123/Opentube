@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Opentube - Watch & Share Videos</title>
+  <meta name="description" content="Opentube is a YouTube-like platform to upload, share, and watch videos. Created by Jaydev Chowdhury."/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Opentube</h1>
+    <input type="text" id="search" placeholder="Search videos..." />
+    <button onclick="logout()">Logout</button>
+  </header>
+
+  <main id="video-feed">
+    <p>Loading videos...</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Opentube — Created by Jaydev Chowdhury</p>
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-storage.js"></script>
+  <script src="firebase.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
